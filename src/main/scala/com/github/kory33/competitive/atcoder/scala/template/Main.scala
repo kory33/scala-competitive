@@ -1,12 +1,15 @@
 package com.github.kory33.competitive.atcoder.scala.template
 
 object Main {
-  import io.StdIn._
+  import java.util.Scanner
 
-  def readStrings: Array[String] = readLine().split(" ")
-  def readInts: Array[Int] = readStrings.map(_.toInt)
+  implicit class RichScanner(sc: Scanner) {
+    def readInts(n: Int): Array[Int] = Array.fill(n) { sc.nextInt() }
+  }
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit = solve(new Scanner(System.in))
+
+  def solve(sc: Scanner): Unit = {
 
   }
 }
