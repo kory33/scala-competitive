@@ -7,9 +7,9 @@ object Main {
     def readInts(n: Int): Array[Int] = Array.fill(n) { sc.nextInt() }
   }
 
-  def main(args: Array[String]): Unit = {
-    val sc = new Scanner(System.in)
+  def main(args: Array[String]): Unit = solve(new Scanner(System.in))
 
+  def solve(sc: Scanner): Unit = {
     val Array(n, m, q) = sc.readInts(3)
     val LR = Array.fill(m)(sc.readInts(2))
     val Q = Array.fill(q)(sc.readInts(2))
