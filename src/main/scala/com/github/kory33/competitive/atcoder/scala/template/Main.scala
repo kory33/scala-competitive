@@ -1,4 +1,4 @@
-package com.github.kory33.competitive.atcoder.scala
+package com.github.kory33.competitive.atcoder.scala.template
 
 object Main {
   import io.StdIn._
