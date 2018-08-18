@@ -1,4 +1,4 @@
-package com.github.kory33.atcoder.scala
+package com.github.kory33.competitive.atcoder.scala
 
 object Markers {
 

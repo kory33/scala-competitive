@@ -1,11 +1,11 @@
-package com.github.kory33.atcoder.scala.abc106
+package com.github.kory33.competitive.atcoder.scala.abc106.d
 
-import com.github.kory33.atcoder.scala.Markers.{TLE, notSolved}
+import com.github.kory33.competitive.atcoder.scala.Markers.{TLE, notSolved}
 
 import scala.collection.mutable
 
 @notSolved[TLE]
-object D {
+object Main {
   import io.StdIn._
 
   @inline def readStrings: Array[String] = readLine().split(" ")

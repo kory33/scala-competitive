@@ -1,6 +1,6 @@
-package com.github.kory33.atcoder.scala.abc106
+package com.github.kory33.competitive.atcoder.scala.abc106.a
 
-object A {
+object Main {
   import io.StdIn._
 
   def getStrings = readLine().split(" ")
