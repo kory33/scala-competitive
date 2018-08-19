@@ -1,4 +1,4 @@
-name := "atcoder-scala"
+name := "scala-competitive"
 
 version := "0.1"
 
